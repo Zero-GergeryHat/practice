@@ -6,6 +6,48 @@
 
 using namespace std;
 
+
+//int main() {
+//	string foods[5];
+//	int size = sizeof(foods) / sizeof(foods[0]);
+//	string temp;
+//
+//	for (int i = 0; i < size; i++) {
+//		cout << "Enter a food you like or 'q' to quit #" << i + 1 << ":";
+//		getline(cin, temp);
+//		if (temp == "q") {
+//			break;
+//		}
+//		else {
+//			foods[i] = temp;
+//		}
+//	}
+//
+//	cout << "You like the following food :\n";
+//
+//	for (int i = 0; !foods[i].empty(); i++) {
+//		cout << foods[i] << '\n';
+//	}
+//
+//}
+
+//int main() {
+//
+//	const int SIZE = 100;
+//	
+//	string foods[SIZE];
+//
+//	fill(foods, foods + (SIZE/2), "pizza");
+//	fill(foods + (SIZE / 2), foods + (SIZE/3)*2, "hamburger");
+//	fill(foods + (SIZE / 3) * 2, foods + SIZE, "hotdog");
+//
+//	for (string food : foods) {
+//		cout << food << '\n';
+//	}
+//
+//	return 0;
+//}
+
 //void sort(int array[], int size);
 //
 //int main() {
